@@ -1,0 +1,5 @@
+library()
+install.packages("ggplot2")
+library(ggplot2)
+qplot(Sepal.Length, Petal.Length, data = iris, color = Species)
+plot(iris$Sepal.Length, iris$Petal.Length)
